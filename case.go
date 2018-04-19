@@ -22,6 +22,7 @@ type Case struct {
 	TypeID               int          `json:"type_id"`
 	UpdatedBy            int          `json:"updated_by"`
 	UdpatedOn            int          `json:"updated_on"`
+	AutomatedIn          []int        `json:"custom_automatedin"`
 }
 
 // CustomStep represents the custom steps
